@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage ("Git Checkout"){
             steps{
-                git credentialsId: 'github', url: 'https://github.com/jram123/ramuproject.git'
+                git credentialsId: 'github', url: 'https://github.com/jram123/declarativedemo.git'
             }
         }
     }
